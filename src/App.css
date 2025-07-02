@@ -45,3 +45,10 @@
   border: 1px solid white;
   margin-left: 9px;
 }
+
+.dependence{
+  margin: 20px;
+  display: flex;
+  gap: 9px;
+  color: orange;
+}
