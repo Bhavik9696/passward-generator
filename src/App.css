@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.919);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1{
+  text-align: center;
+  color: rgb(248, 255, 124);
+}
+
+.passgen{
+  background-color: rgb(95, 92, 92);
+  min-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  margin-top: 20px;
+  min-height: 90px;
+  
+}
+
+.passgen input{
+  background-color: rgb(216, 232, 232);
+  padding: 12px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.passgen button{
+  background-color: blue;
+  color: white;
+  padding: 9px;
+  border-radius: 9px;
+  border: 1px solid white;
+  margin-left: 9px;
+}
