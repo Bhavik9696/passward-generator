@@ -1,12 +1,32 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔐 React Password Generator
 
-Currently, two official plugins are available:
+A simple and customizable password generator built with React and Vite. Easily generate strong passwords by adjusting length, and optionally including numbers and special characters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Generate random secure passwords
+- Adjustable password length (6 to 99)
+- Option to include:
+  - Numbers (0–9)
+  - Special characters (!@#$ etc.)
+- Copy password to clipboard with one click
+- Built using React Hooks (`useState`, `useEffect`, `useCallback`, `useRef`)
+- Responsive and lightweight UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 🧠 React Hooks
+- 🎨 CSS
+
+---
+
+git clone https://github.com/your-username/password-generator.git
+cd password-generator
+npm install
+
